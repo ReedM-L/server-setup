@@ -1,0 +1,26 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and cache
+*.log
+cache/
+tmp/
+var/logs/
+var/cache/
+
+# Ignore Apache and Nginx logs
+/var/log/apache2/*
+/var/log/nginx/*
+
+# Ignore Nextcloud data (if not storing in repo)
+data/
+
+# Ignore database credentials and config files
+config.php
+.env
+
+# Ignore backup and swap files
+*.bak
+*.swp
+*.swo
